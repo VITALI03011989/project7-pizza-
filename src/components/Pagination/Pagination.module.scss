@@ -1,0 +1,26 @@
+.paginat {
+    :global {
+      li {
+        display: inline-block;
+
+        a {
+            text-align: center;
+            width: 75px;
+            line-height: 50px;
+            height: 50px;
+            border: 1px solid #fe5f1e;
+            border-radius: 50px;
+            margin-right: 10px;
+            cursor: pointer;
+            display: inline-block;
+            color: #fe5f1e;
+
+            &:hover{
+                background-color: #fe5f1e;
+                color: #fff;
+            }}
+      }}
+      .selected {
+        background-color: #fe5f1e;
+        color:#fff
+    }}
